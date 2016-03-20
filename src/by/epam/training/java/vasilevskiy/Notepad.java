@@ -8,6 +8,7 @@ public class Notepad {
 	public static void main(String[] args){
 		EntryInNotepad startNotepad=new EntryInNotepad();
 		startNotepad.menu();
+		
 	}
 	
 	
