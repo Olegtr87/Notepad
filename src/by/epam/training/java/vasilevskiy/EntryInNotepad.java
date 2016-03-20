@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class EntryInNotepad {
 	private String[] array = new String[100];
-	final static String TEXT_MENU = "Enter the number of the menu item: \n1 Add entry \n2 Delete entry \n3 Edit entry \n4 View all entries \n0 Exit";
+	final static String TEXT_MENU = "Enter the number of the menu item:\n1 Add entry \n2 Delete entry \n3 Edit entry \n4 View all entries \n0 Exit";
 	final static String TEXT_INCORRECT_ENTER = "Invalid input!";
 	final static String TEXT_ENTER_NUMBER_POINT = "Enter the record number: ";
 	final static String TEXT_ENTER = "Enter the text entries: ";
