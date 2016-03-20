@@ -1,4 +1,5 @@
 package by.epam.training.java.vasilevskiy;
+import java.util.InputMismatchException;
 /**
  * The class implements methods to add record, delete record, edit record, view all entries, menu.
  */
@@ -41,7 +42,7 @@ public class EntryInNotepad {
 			//return in menu
 			menu();
 			// if exception, return in menu
-		} catch (Exception e) {
+		} catch (InputMismatchException e) {
 			System.out.println(TEXT_INCORRECT_ENTER);
 			menu();
 		}
@@ -66,7 +67,7 @@ public class EntryInNotepad {
 			// return in menu
 			menu();
 			// if exception, return in menu
-		} catch (Exception e) {
+		} catch (InputMismatchException e) {
 			System.out.println(TEXT_INCORRECT_ENTER);
 			menu();
 		}
